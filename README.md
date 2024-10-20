@@ -9,14 +9,17 @@ Before implementing the code be sure to install all the libraries and submodules
 ## Readability
 It is assessed by Flesch–Kincaid formula for automated readability analysis:
 ![image](https://github.com/user-attachments/assets/1cc596f1-3740-4fc3-8a3a-6bdcbf8f2918)
+
 Libraries & submodules: Re
 
 ## Affective state
 Sentiment analysis is conducted automatically, too. Though, two versions are presented. One is made by our command and the other is made by using dostoevsky library.
+
 Libraries & submodules: Pandas, Sklearn, Dostoevsky
 
 ## Keywords
 Keywords in this project are the most frequent words of the text. 
+
 Libraries & submodules: NLTK, String, Pymorphy3.
 
 ## Recommendations:
