@@ -13,7 +13,7 @@ FRE = 206,835 − 1,52 × ASL − 65,14 × ASW, where ASL is an average sentence
 Libraries & submodules: Re.
 
 ## Affective state
-Sentiment analysis is conducted automatically, too. Though, two versions are presented. One is made by our command and the other is made by using dostoevsky library.
+Sentiment analysis is conducted automatically, too. Though, two versions are presented. One is made by our team and the other is made by using dostoevsky library.
 
 Libraries & submodules: Pandas, Sklearn, Dostoevsky.
 
