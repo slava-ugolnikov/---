@@ -1,0 +1,6 @@
+nltk == 3.9.1
+pandas == 2.2.3
+pymorphy3 == 2.0.2
+pytelegrambotapi == 4.23.0
+sklearn == 1.5.2
+telebot == 4.23.0
