@@ -8,7 +8,7 @@ Before implementing the code be sure to install all the libraries and submodules
 
 ## Readability
 It is assessed by Flesch–Kincaid formula for automated readability analysis:
-![image](https://github.com/user-attachments/assets/1cc596f1-3740-4fc3-8a3a-6bdcbf8f2918)
+FRE = 206,835 − 1,52 × ASL − 65,14 × ASW, where ASL is an average sentence length and ASW is an average number of syllables per word.
 
 Libraries & submodules: Re.
 
