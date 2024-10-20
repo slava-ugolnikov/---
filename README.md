@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/27edaf31-72f8-4cd0-be4e-61511f6a9a0f)# Chatbot for text analysis
+# Chatbot for text analysis
 
 This chatbot in Telegram would provide you with text analysis in Russian. It can asses readability, affective state of an author and identify keywords of a text.
 You can check how it workds now here https://t.me/Ling22FPLBot or use our code for your own projects!
