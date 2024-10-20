@@ -10,20 +10,20 @@ Before implementing the code be sure to install all the libraries and submodules
 It is assessed by Flesch–Kincaid formula for automated readability analysis:
 ![image](https://github.com/user-attachments/assets/1cc596f1-3740-4fc3-8a3a-6bdcbf8f2918)
 
-Libraries & submodules: Re
+Libraries & submodules: Re.
 
 ## Affective state
 Sentiment analysis is conducted automatically, too. Though, two versions are presented. One is made by our command and the other is made by using dostoevsky library.
 
-Libraries & submodules: Pandas, Sklearn, Dostoevsky
+Libraries & submodules: Pandas, Sklearn, Dostoevsky.
 
 ## Keywords
 Keywords in this project are the most frequent words of the text. 
 
 Libraries & submodules: NLTK, String, Pymorphy3.
 
-## Recommendations:
+## Recommendations
 Since this code is designed for Telegram chats, the text length is limited. Try not to analyze texts longer than 10-15 sentences.
 
 ## Authors 
-This chat would have not been introduced to this world without work of Abramova Ulyana, Borodina Sofya, Kramkova Maria, Mokina Marina and Ugolnikov Vyacheslav
+This chat would have not been introduced to this world without work of Abramova Ulyana, Borodina Sofya, Kramkova Maria, Mokina Marina and Ugolnikov Vyacheslav.
