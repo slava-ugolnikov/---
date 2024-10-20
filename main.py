@@ -19,10 +19,9 @@ def send_messages(message) -> None:
     if message.text == "/start":
         bot.send_message(message.from_user.id, "Привет! Я бот, который анализирует текст.\n"
                                                "Отправьте мне текст, и я определю его сложность для понимания, "
-                                               "тональность и ключевые слова.\n"
-                                               'И да, продолжая наш диалог, Вы принимаете пользовательское соглашение')
+                                               "тональность и ключевые слова.")
     elif message.text == "/help":
-        bot.send_message(message.from_user.id, 'Ссылка на инстукцию: ')
+        bot.send_message(message.from_user.id, 'Ссылка на инстукцию: https://docs.google.com/document/d/1o6N4VDcAfiorC4fno6XnaT8k-PjMv2Y5/edit?usp=sharing&ouid=109128145750281841208&rtpof=true&sd=true')
     else:
         complexity = Complexity(message.text)
         bot.send_message(message.from_user.id, complexity.get_message())
