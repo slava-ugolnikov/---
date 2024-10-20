@@ -21,11 +21,10 @@ class Complexity:
         """
         text = self._text.replace('?', '.').replace('!', '.')
         list_sentences = text.split('. ')
-        length_text = len(list_sentences)
         average_sentence_length = 0
         for sentence in list_sentences:
             list_words = sentence.split()
-            average_sentence_length += len(list_words) / length_text
+            average_sentence_length += len(list_words) / len(list_sentences)
         list_words = [word.lower() for word in text.split() if re.search('[аеёиоуыэюя]', word.lower())]
         average_number_syllables_word = 0
         for word in list_words:
@@ -68,6 +67,6 @@ class Complexity:
         fres = self.calculate_fres(average_sentence_length, average_number_syllables_word)
         return (f'Средняя длина предложения в словах: {round(average_sentence_length, 2)}\n'
                 f'Средняя длина слова в слогах: {round(average_number_syllables_word, 2)}\n'
-                f'Индекс сложности текста: '
+                f'Индекс удобочитаемости текста: '
                 f'{round(fres, 2)}\n'
                 f'{self.determine_complexity(fres)}')
