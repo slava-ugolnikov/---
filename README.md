@@ -26,4 +26,4 @@ Libraries & submodules: NLTK, String, Pymorphy3.
 Since this code is designed for Telegram chats, the text length is limited. Try not to analyze texts longer than 10-15 sentences.
 
 ## Authors 
-This chat would have not been introduced to this wicked world without work of Abramova Ulyana, Borodina Sofya, Kramkova Maria, Mokina Marina and Ugolnikov Vyacheslav
+This chat would have not been introduced to this world without work of Abramova Ulyana, Borodina Sofya, Kramkova Maria, Mokina Marina and Ugolnikov Vyacheslav
